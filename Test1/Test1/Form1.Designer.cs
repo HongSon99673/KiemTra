@@ -44,7 +44,7 @@ namespace Test1
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "UserName";
+            this.label1.Text = "tên đăng nhập";
             // 
             // textboxusername
             // 
@@ -62,7 +62,7 @@ namespace Test1
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 25);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Password";
+            this.label2.Text = "mật khẩu";
             // 
             // textboxpassword
             // 
@@ -79,7 +79,7 @@ namespace Test1
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(150, 44);
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "Login";
+            this.btnlogin.Text = "Đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
