@@ -41,7 +41,7 @@ namespace Test1
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(124, 59);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 17);
+            this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "tên đăng nhập";
             // 
@@ -58,9 +58,16 @@ namespace Test1
             this.label2.Location = new System.Drawing.Point(124, 101);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "mật khẩu";
+            // 
+            // txtpassword
+            // 
+            this.txtpassword.Location = new System.Drawing.Point(196, 98);
+            this.txtpassword.Name = "txtpassword";
+            this.txtpassword.Size = new System.Drawing.Size(247, 20);
+            this.txtpassword.TabIndex = 5;
             // 
             // btnlogin
             // 
@@ -68,7 +75,7 @@ namespace Test1
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(75, 23);
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "Login";
+            this.btnlogin.Text = "Đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
