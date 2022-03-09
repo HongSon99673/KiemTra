@@ -16,5 +16,14 @@ namespace Test1
         {
             InitializeComponent();
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            if (textboxpassword.Text == "admin" && textboxusername.Text == "admin")
+            {
+                Succ succ = new Succ();
+                succ.Show();
+            }
+        }
     }
 }
